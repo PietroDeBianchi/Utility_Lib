@@ -1,0 +1,162 @@
+# DEV Terminal Command
+
+# Terminal Commands for Git (Mac)
+
+- `git init`: Initializes a new Git repository.
+- `git clone <repository-url>`: Clones a remote Git repository to the local machine.
+- `git add <file>`: Adds a file to the staging area.
+- `git commit -m "<message>"`: Commits the changes in the staging area with a descriptive message.
+- `git status`: Shows the status of the working directory and the staging area.
+- `git diff`: Shows the differences between the current changes and the last commit.
+- `git branch`: Lists all branches in the repository.
+- `git branch <branch-name>`: Creates a new branch.
+- `git checkout <branch-name>`: Switches to the specified branch.
+- `git merge <branch-name>`: Merges changes from the specified branch into the current branch.
+- `git pull`: Fetches and merges changes from a remote repository to the current branch.
+- `git push`: Pushes committed changes to a remote repository.
+- `git log`: Shows the commit history.
+- `git remote add <remote-name> <remote-url>`: Adds a new remote repository.
+- `git remote -v`: Lists all remote repositories.
+- `git remote remove <remote-name>`: Removes a remote repository.
+- `git stash`: Stashes the changes in the working directory.
+- `git stash apply`: Applies the most recent stash.
+- `git stash list`: Lists all stashes.
+- `git stash drop`: Discards the most recent stash.
+- `git config --global user.name "<name>"`: Sets the global username for Git.
+- `git config --global user.email "<email>"`: Sets the global email address for Git.
+- `git diff --staged`: Shows the differences between the last commit and the staging area.
+- `git reset <file>`: Unstages the specified file.
+- `git reset --hard`: Discards all changes in the working directory and staging area.
+- `git checkout -- <file>`: Discards changes in the specified file.
+- `git remote show <remote-name>`: Shows information about a remote repository.
+- `git tag`: Lists all tags in the repository.
+- `git tag <tag-name>`: Creates a new tag at the current commit.
+- `git tag -a <tag-name> -m "<message>"`: Creates an annotated tag with a message.
+- `git tag -d <tag-name>`: Deletes a tag.
+- `git push <remote-name> --tags`: Pushes all tags to a remote repository.
+
+# Terminal Commands for NPM (Mac) JS
+
+- `npm init`: Initializes a new npm package in the current directory.
+- `npm install <package>`: Installs a package and its dependencies.
+- `npm uninstall <package>`: Uninstalls a package.
+- `npm update <package>`: Updates a package to the latest version.
+- `npm outdated`: Checks for outdated packages in your project.
+- `npm run <script>`: Runs a script defined in the `scripts` section of the `package.json` file.
+- `npm start`: Starts the project as defined in the `start` script.
+- `npm test`: Runs test scripts defined in the `test` script.
+- `npm publish`: Publishes a package to the npm registry.
+- `npm ls`: Lists installed packages in your project.
+- `npm search <keyword>`: Searches the npm registry for packages matching the keyword.
+- `npm outdated -g`: Checks for outdated global packages.
+- `npm view <package>`: Displays detailed information about a package.
+- `npm init -y`: Initializes a new npm package with default settings.
+- `npm run build`: Runs a build script defined in the `scripts` section of the `package.json`
+
+# Terminal Commands for Angular (Mac) JS
+
+- `npm install -g @angular/cli`: Installs the Angular CLI globally.
+- `ng new <project-name>`: Creates a new Angular project.
+- `cd <project-name>`: Changes the current directory to the project folder.
+- `ng serve`: Starts the development server and serves the Angular app.
+- `ng generate component <component-name>`: Generates a new component.
+- `ng generate service <service-name>`: Generates a new service.
+- `ng build`: Builds the Angular app for production.
+- `ng test`: Runs unit tests for the Angular app.
+- `ng lint`: Lints the Angular app's code.
+- `ng serve --open`: Starts the development server and opens the app in a browser.
+- `ng update`: Updates the Angular dependencies in the project.
+- `ng add <package-name>`: Adds a package to the Angular project.
+- `ng help`: Displays the Angular CLI help documentation.
+
+# Terminal Commands for .NET (Mac) C#
+
+- `dotnet new <template>`: Creates a new .NET project using the specified template.
+- `dotnet restore`: Restores the NuGet packages for the .NET project.
+- `dotnet build`: Builds the .NET project and its dependencies.
+- `dotnet run`: Runs the .NET project.
+- `dotnet test`: Runs the unit tests for the .NET project.
+- `dotnet publish`: Publishes the .NET project for deployment.
+- `dotnet clean`: Cleans the build output of the .NET project.
+- `dotnet add package <package-name>`: Adds a NuGet package to the .NET project.
+- `dotnet remove package <package-name>`: Removes a NuGet package from the .NET project.
+- `dotnet list package`: Lists the installed NuGet packages for the .NET project.
+- `dotnet new sln`: Creates a new solution file for managing multiple .NET projects.
+- `dotnet sln add <project-path>`: Adds a .NET project to the solution file.
+- `dotnet sln remove <project-path>`: Removes a .NET project from the solution file.
+- `dotnet sln list`: Lists the .NET projects in the solution file.
+- `dotnet ef migrations add <migration-name>`: Adds a new Entity Framework migration to the .NET project.
+- `dotnet ef database update`: Updates the database schema based on the Entity Framework migrations.
+
+# .NET Template (Mac) C#
+
+- `dotnet new console`: Creates a new console application.
+- `dotnet new classlib`: Creates a new class library.
+- `dotnet new mvc`: Creates a new [ASP.NET](http://asp.net/) Core MVC application.
+- `dotnet new web`: Creates a new [ASP.NET](http://asp.net/) Core web application.
+- `dotnet new webapi`: Creates a new [ASP.NET](http://asp.net/) Core Web API application.
+- `dotnet new razor`: Creates a new Razor Pages application.
+- `dotnet new blazorserver`: Creates a new Blazor Server App application.
+- `dotnet new blazorwasm`: Creates a new Blazor WebAssembly App application.
+- `dotnet new globaljson`: Creates a new global.json file.
+- `dotnet new nugetconfig`: Creates a new NuGet.config file.
+- `dotnet new sln`: Creates a new solution file for managing multiple .NET projects.
+
+# Terminal Commands for pip (Mac) Python
+
+- `pip install <package>`: Installs a Python package.
+- `pip uninstall <package>`: Uninstalls a Python package.
+- `pip freeze`: Lists installed packages and their versions.
+- `pip list`: Lists installed packages.
+- `pip show <package>`: Displays detailed information about a package.
+- `pip search <keyword>`: Searches for packages matching the keyword.
+- `pip install --upgrade <package>`: Upgrades a Python package to the latest version.
+- `pip install --upgrade pip`: Upgrades pip to the latest version.
+- `pip check`: Checks installed packages for issues.
+- `pip install -r requirements.txt`: Installs packages listed in a requirements.txt file.
+- `pip install --user <package>`: Installs a package for the current user only.
+- `pip install --proxy <proxy>`: Installs packages using a proxy.
+- `pip install --no-cache-dir <package>`: Installs a package without using the cache.
+- `pip install --pre <package>`: Installs a pre-release version of a package.
+- `pip install --no-deps <package>`: Installs a package without installing its dependencies.
+
+# Terminal Commands for Django (Mac) Python
+
+- `python3 -m django startproject <project-name>`: Creates a new Django project.
+- `python3 manage.py runserver`: Starts the development server for the Django project.
+- `python3 manage.py migrate`: Applies database migrations for the Django project.
+- `python3 manage.py createsuperuser`: Creates a superuser for the Django project.
+- `python3 manage.py makemigrations`: Creates new database migrations based on the changes in the Django project.
+- `python3 manage.py shell`: Opens the Python shell with Django project's environment.
+- `python3 manage.py test`: Runs tests for the Django project.
+- `python3 manage.py collectstatic`: Collects static files from the Django project's apps into a single location.
+- `python3 manage.py startapp <app-name>`: Creates a new Django app within the project.
+- `python3 manage.py runscript <script-name>`: Runs a custom script within the Django project.
+- `python3 manage.py flush`: Deletes all data from the database of the Django project.
+- `python3 manage.py shell_plus`: Opens the enhanced Python shell with Django project's environment and additional features.
+- `python3 manage.py check`: Checks the Django project for any issues.
+- `python3 manage.py dumpdata`: Dumps data from the Django project's database into a file.
+- `python3 manage.py loaddata`: Loads data from a file into the Django project's database.
+- `python3 manage.py createsuperuser --username=<username> --email=<email>`: Creates a superuser with specified username and email.
+- `python3 -m venv <path-to-env>` start an env
+- `deactivate` close env when active
+
+# Terminal Commands for Brew (Mac) Machine pack
+
+- `brew install <formula>`: Installs a formula (package) using Homebrew.
+- `brew uninstall <formula>`: Uninstalls a formula.
+- `brew upgrade <formula>`: Upgrades a formula to the latest version.
+- `brew update`: Updates Homebrew itself and fetches the latest formulae.
+- `brew list`: Lists installed formulae.
+- `brew search <keyword>`: Searches for formulae matching the keyword.
+- `brew info <formula>`: Displays information about a formula.
+- `brew doctor`: Checks for common issues and provides suggestions for troubleshooting.
+- `brew cleanup`: Removes outdated versions of installed formulae.
+
+### Terminal & VS CODE for MONGODB
+
+- `brew services start mongodb-community`: To run MongoDB (i.e. the `[mongod](https://www.mongodb.com/docs/manual/reference/program/mongod/#mongodb-binary-bin.mongod)` process) **as a macOS service**
+- `brew services stop mongodb-community`: To stop a `[mongod](https://www.mongodb.com/docs/manual/reference/program/mongod/#mongodb-binary-bin.mongod)` running as a macOS service, use the following command as needed:
+- `brew services list`:  To verify that MongoDB is running as service
+- `dotnet add package MongoDB.Driver --version X.XX.XX` : Install specific Mongo.D version
+- `dotnet add package realm` : Install Realms for MongoDB, SDK functions for db relations
